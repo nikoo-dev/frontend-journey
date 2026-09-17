@@ -14,9 +14,9 @@ Documenting my progress through the front-end course at Skillwill College.
 
 ## Exercises & Homework
 
-| # | Project | Related Lecture |
-|---|---------|------------------|
-| 01 | [About Me page](exercises/01-about-me) | Lecture 1 |
-| 02 | [eCommerce Product Card](exercises/02-ecommerce-product-card) | Lecture 2 |
-| 03 | [Contact Form](exercises/03-contact-form) | Lecture 3 |
-| 04 | [Student Registration Form](exercises/04-student-registration-form) | Lecture 4 |
+| # | Project | Related Lecture | Status |
+|---|---------|------------------|--------|
+| 01 | [About Me page](exercises/01-about-me) | Lecture 1 | ✅ |
+| 02 | [eCommerce Product Card](exercises/02-ecommerce-product-card) | Lecture 2 | ✅ |
+| 03 | [Contact Form](exercises/03-contact-form) | Lecture 3 | ✅ |
+| 04 | [Student Registration Form](exercises/04-student-registration-form) | Lecture 4 | ✅ |
