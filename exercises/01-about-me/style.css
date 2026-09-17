@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9; 
+  margin: 0;                  
+  padding: 20px;              
+}
+
+.profile-card {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;          
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-photo {
+  width: 150px;                  
+  height: 150px;                 
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-title, 
+.user-name {
+  text-align: center;           
+  color: #333333;               
+}
+
+.user-profession {
+  text-align: center;
+  font-style: italic;
+  color: #666666;
+}
+
+.favorite-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #0066cc;
+  text-decoration: none;         
+}
