@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="surname">Surname:</label>
+        <input
+          type="text"
+          name="surname"
+          id="surname"
+          placeholder="Enter your surname"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>Login Information</legend>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="mail@example.com"
+          required
+        />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="*******"
+          minlength="6"
+          maxlength="20"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>Details</legend>
+        <label for="age">Age:</label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          min="1"
+          max="120"
+          placeholder="Enter your age"
+          required
+        />
+
+        <label for="birth-date">Date of Birth:</label>
+        <input type="date" name="birth-date" id="birth-date" required />
+
+        <label for="city">City:</label>
+        <select name="city" id="city" required>
+          <option value="" disabled selected>Select a city</option>
+          <option value="kutaisi">Kutaisi</option>
+          <option value="tbilisi">Tbilisi</option>
+          <option value="batumi">Batumi</option>
+          <option value="gori">Gori</option>
+          <option value="rustavi">Rustavi</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="gender" id="male" value="male" required />
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+
+        <input
+          type="radio"
+          name="gender"
+          id="prefer-not-to-say"
+          value="prefer-not-to-say"
+        />
+        <label for="prefer-not-to-say">Prefer not to say</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Skills</legend>
+        <input type="checkbox" id="css" name="skills[]" value="css" />
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="html" name="skills[]" value="html" />
+        <label for="html">HTML</label>
+
+        <input
+          type="checkbox"
+          id="javascript"
+          name="skills[]"
+          value="javascript"
+        />
+        <label for="javascript">JavaScript</label>
+
+        <input type="checkbox" id="csharp" name="skills[]" value="c#" />
+        <label for="csharp">C#</label>
+
+        <input type="checkbox" id="python" name="skills[]" value="python" />
+        <label for="python">Python</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Bio & Terms</legend>
+        <label for="bio">Bio:</label><br />
+        <textarea
+          name="bio"
+          id="bio"
+          cols="40"
+          rows="4"
+          placeholder="Enter information about yourself..."
+          style="resize: vertical"
+        ></textarea>
+
+        <br /><br />
+
+        <input type="checkbox" name="terms" id="terms" required />
+        <label for="terms">
+          I agree to the Terms and Conditions and Privacy Policy.
+        </label>
+      </fieldset>
+
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
