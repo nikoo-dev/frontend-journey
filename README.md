@@ -11,7 +11,8 @@ Documenting my progress through the front-end course at Skillwill College.
 | 2026-09-16 | CSS Box Model | [notes](lectures/2026-09-16-css-box-model/notes.md) |
 | 2026-09-16 | CLI Basics & Intro to Version Control | [notes](lectures/2026-09-16-git-cli-basics/notes.md) |
 | 2026-09-17 | HTML Forms | [notes](lectures/2026-09-17-html-forms/notes.md) |
-
+| 2026-09-19 | Git & GitHub Fundamentals | [notes](lectures/2026-09-19-git-fundamentals/notes.md) |
+| 2026-09-21 | Flexbox Layout | [notes](lectures/2026-09-21-flexbox-layout/notes.md) |
 ## Exercises & Homework
 
 | # | Project | Related Lecture | Status |
